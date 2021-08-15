@@ -136,6 +136,8 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /*Portfolio*/
 .portfolio{
+  width: 1980px;
+  height: 1020px;
   margin: 4em 0;
     position: relative; 
 }
@@ -143,14 +145,7 @@ html,h1,h2,h3,h4,h5,h6,a{
   color:#F97300;
   margin: 2em;  
 }
-.portfolio img{
-   height: 15rem;
-   width: 100%;
-   margin: 1em;
 
-  
-
-}
 
 /*blog style*/
 
@@ -235,5 +230,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 .contact-form .right .form-control::placeholder{
   color: #888;
   font-size: 16px;
+}
+
+.textanme
+{
+  
+  font-size: 40px;
+  color: white;
 }
 
