@@ -3,8 +3,8 @@
 body{
   padding: 0;
   margin: 0;
-  background:#2C322E;
-
+  background:#232323;
+  overflow:  auto;
 }
 html,h1,h2,h3,h4,h5,h6,a{
   font-family: "Raleway";
@@ -136,8 +136,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 /*Portfolio*/
 .portfolio{
-  width: 1980px;
-  height: 1020px;
+
   margin: 4em 0;
     position: relative; 
 }
@@ -232,6 +231,39 @@ html,h1,h2,h3,h4,h5,h6,a{
   font-size: 16px;
 }
 
+.block{
+    display:inline-block;
+    margin-left:10px;
+    margin-top:10px;
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 550ms;
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 550ms;
+}
+.block:hover {
+    transform: scale(1.2,1.2);
+    transition-timing-function: ease-out;
+    transition-duration: 550ms;
+    transform: scale(1.2,1.2);
+    transition-timing-function: ease-out;
+    transition-duration: 550ms;
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+
 .textanme
 {
   
@@ -240,42 +272,30 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .usluga {
-
+  margin: 0.2%;
   display: inline-grid ;
-  background-color: #49524B;
-  width: 420px;
+  background-image: url(../images/camuda.jpg);
+  width: 350px;
   height: 450px;
+  border-color: black;
+  border-style: solid;
 
 }
 
 .textusluga {
   text-align: center;
-
+  color: green;
   font-size: 40px;
 }
 
 .container-flex {
-    margin-left: 55px;
-    margin-right: 55px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+
+margin-left: 2.2%;
+display: flex;
 }
 
-.baton {
-  display: flex;
-      position: absolute;
-      margin-left: 85px;
-      margin-top: 285px;
-      background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+.cards {
 
-    font-size: 16px;
+  text-align: center;
 }
+
