@@ -8,3 +8,4 @@ $(".navbar a").click(function(){
   },1000)
   
  })
+
